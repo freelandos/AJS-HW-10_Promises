@@ -1,5 +1,4 @@
-/* eslint-disable no-console */
-import GameSavingLoader from './GameSavingLoader';
+import GameSavingLoader from './GameSavingLoader.js';
 
 GameSavingLoader.load().then((saving) => {
   console.log(saving);
